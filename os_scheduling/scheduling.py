@@ -28,7 +28,7 @@ def FIFO(processes):
         current_time += process.burst_time 
 
         process.end = current_time
-        print(f"Process {process.pid} finished at {process.finish_time}")
+        print(f"Process {process.process_id} finished at {process.end}")
 
 """ def SJN(processes):
 
